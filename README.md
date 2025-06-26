@@ -2,6 +2,39 @@
 
 A full-stack web application for creating, managing, and collecting feedback through customizable forms. Built with React (frontend) and Node.js/Express (backend) with PostgreSQL database.
 
+## 🖼️ Demo Screenshots
+
+### 🏠 Landing Page
+![Home Page](./frontend/public/home.png)
+*Modern landing page with features showcase and testimonials*
+
+### 🔐 Authentication
+![Login Page](./frontend/public/login.png)
+*Clean login/signup interface with form validation*
+
+### 📊 Dashboard
+![Dashboard](./frontend/public/dashboard.png)
+*User dashboard showing all created forms with quick actions*
+
+![Dashboard](./frontend/public/shareReview.png)
+*User dashboard showing share url screen*
+
+
+### 📝 Form Builder
+![Form Creation](./frontend/public/Create.png)
+*Intuitive form builder with drag-and-drop functionality*
+
+### 📈 Analytics & Responses
+![Form Details](./frontend/public/analytics.png)
+*Detailed form analytics with response statistics*
+
+---
+
+Demo URL 
+---
+Test the form using the url below
+`https://feedbacker.purushotamjeswani.in/form/0cffa8ec-dfad-4d0d-bb8a-aa4fd2a9773e`
+
 ## 🚀 Features
 
 - **User Authentication**: Secure login/signup system with JWT tokens

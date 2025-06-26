@@ -6,7 +6,7 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Form from "./pages/Form";
 import Details from './pages/Details';
-import EditForm from './pages/EditFormNew';
+import EditForm from './pages/EditForm';
 function App() {
 
   return (

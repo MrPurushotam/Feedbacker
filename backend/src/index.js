@@ -34,10 +34,13 @@ app.use("/api/v1/response", ResponseRouter);
     const connected = await db.Connect();
     await db.CreateTable();
     if (!connected) {
-        console.error("Failed to connect to the database. Server not started.");
-        process.exit(1);
+        console.error("Failed to connect to the database.");
     }
+})();
+if (require.main === module) {
     app.listen(port, () => {
         console.log(`Server is running on port ${port}`);
     });
-})();
+}
+
+module.exports = app;
